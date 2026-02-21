@@ -10,24 +10,24 @@ endif
 
 if SHIELD_KEYBALL61_LEFT || SHIELD_KEYBALL61_RIGHT
 
-config ZMK_SPLIT
-	default y
+# config ZMK_SPLIT
+# 	default y
 	
-endif
+# endif
 
-if ZMK_DISPLAY
+# if ZMK_DISPLAY
 
-config I2C
-    default y
+# config I2C
+#     default y
 
-config SSD1306
-    default y
+# config SSD1306
+#     default y
 
-choice ZMK_DISPLAY_WORK_QUEUE
-    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
-endchoice
+# choice ZMK_DISPLAY_WORK_QUEUE
+#     default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+# endchoice
 
-endif
+# endif
 
 if LVGL
 
