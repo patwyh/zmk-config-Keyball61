@@ -10,10 +10,10 @@ endif
 
 if SHIELD_KEYBALL61_LEFT || SHIELD_KEYBALL61_RIGHT
 
-# config ZMK_SPLIT
-# 	default y
+config ZMK_SPLIT
+	default y
 	
-# endif
+endif
 
 # if ZMK_DISPLAY
 
